@@ -1,0 +1,10 @@
+型の種類（プリミティブ型・参照型）
+-プリミティブ型-
+・long long number = 9223372036854775807L;
+・int
+・short
+・byte
+・double
+・float
+・
+・
