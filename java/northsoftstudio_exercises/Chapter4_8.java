@@ -9,7 +9,7 @@ public class Chapter4_8 {
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int max = 0;
-		for (int i = 1; i <= 10;i++) {
+		for (int i = 1; i <= 10; i++) {
 			System.out.println("数値を入力してください。");
 			int number = Integer.parseInt(br.readLine());
 			if (max < number) {

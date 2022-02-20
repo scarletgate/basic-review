@@ -8,14 +8,13 @@ import java.io.InputStreamReader;
 public class Chapter4_9 {
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int max = 0;
-		int min = 0;
+		int max = 0, min = 0;
 		for (int i = 1; i <= 10; i++) {
 			System.out.print(i + "回目、数値を入力してください。");
 			int number = Integer.parseInt(br.readLine());
 			if (max < number) {
 				max = number;
-			} else if (min < number) {
+			} else if (min > number) {
 				min = number;
 			}
 		}

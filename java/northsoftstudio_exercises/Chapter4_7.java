@@ -17,6 +17,7 @@ public class Chapter4_7 {
 			tigers += Integer.parseInt(br.readLine());
 		}
 		System.out.println("巨人：" + giants + "点、阪神：" + tigers + "点");
+
 		if (giants > tigers) {
 			System.out.println("巨人の勝ち");
 		} else if (tigers > giants) {
